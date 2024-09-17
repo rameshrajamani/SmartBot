@@ -37,4 +37,4 @@ Installing SmartBot is a simple two-step process:
 **Windows users:** Launch SmartBot by clicking on **SmartBot.exe** or running the **run.bat** script.
 **Linux users:** Use the **run.sh** script to start SmartBot.
 
-That’s it! You can now converse with different AI models by updating the model configuration in the config.properties file.
+That’s it! You can now converse with different AI models by updating the model configuration in the **config.properties** file.
