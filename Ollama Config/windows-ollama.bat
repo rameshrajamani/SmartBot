@@ -5,7 +5,7 @@ REM Define variables
 set OLLAMA_URL=https://www.ollama.com/download/OllamaSetup.exe
 set OLLAMA_DIR=%USERPROFILE%\ollama
 set OLLAMA_EXE=%OLLAMA_DIR%\ollama.exe
-set TEXT_MODEL=phi3
+set TEXT_MODEL=phi3.5
 set IMAGE_MODEL=moondream
 
 REM Check for admin privileges
