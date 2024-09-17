@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBot Functionality & Installation Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            color: #c7254e;
+            background-color: #f9f2f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SmartBot Functionality & Installation Guide</h1>
+
+    <h2>Overview</h2>
+    <p>
+        SmartBot is a Swing-based desktop application that simulates a chatbot interaction interface. 
+        The bot can handle text and file input, store and display chat history, and generate PDF reports from the chat content. 
+        It also supports attaching and processing files like PDFs and images.
+    </p>
+
+    <h2>Functionality Breakdown</h2>
+    
+    <h3>1. UI Components</h3>
+    <p>The main UI components include:</p>
+    <ul>
+        <li><strong>JTextField:</strong> Used for entering text input.</li>
+        <li><strong>JEditorPane:</strong> Displays the chat history in HTML format.</li>
+        <li><strong>JButton:</strong> Buttons for sending messages, clearing messages, and attaching files.</li>
+        <li><strong>JPanel:</strong> Organizes the layout of different components.</li>
+        <li><strong>JFileChooser:</strong> Facilitates file selection for attachments.</li>
+        <li><strong>JScrollPane:</strong> Enables scrolling within the chat history panel.</li>
+    </ul>
+
+    <h3>2. Chat Functionality</h3>
+    <p>The chat interface allows users to input text and interact with the bot. Key features include:</p>
+    <ul>
+        <li>Text input with <code>Enter</code> key press to send messages.</li>
+        <li>Option to attach files, which can be processed and included in the chat.</li>
+        <li>Chat history is displayed in an HTML format with a timestamp and stored locally in an HTML file.</li>
+    </ul>
+
+    <h3>3. File Attachment and Processing</h3>
+    <p>
+        Users can attach multiple files (PDFs or images) to the chat. The bot processes these files, displaying the images and storing the PDF content.
+        Additionally, users can right-click on the chat history to generate a PDF report of the conversation.
+    </p>
+
+    <h3>4. Model Integration</h3>
+    <p>
+        The application supports interaction with a selected language model (e.g., "llava") using the <code>OllamaStreamingChatModel</code>. 
+        The response from the model is streamed and displayed in real-time within the chat interface.
+    </p>
+
+    <h2>Installation Guide</h2>
+
+    <h3>1. Prerequisites</h3>
+    <ul>
+        <li>Java Development Kit (JDK) 17 or above</li>
+        <li>Maven or Gradle build tool</li>
+        <li>Internet connection (for downloading dependencies)</li>
+		<li>Ollama Installation</li>
+    </ul>
+
+    <h3>2. Setup Instructions</h3>
+    <p>Follow the steps below to set up and run the SmartBot application:</p>
+    <ol>
+        <li><strong>Clone the Repository:</strong> Clone the project repository from GitHub or download the source code.</li>
+        <li><strong>Open the Project:</strong> Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).</li>
+        <li><strong>Install Dependencies:</strong> Use Maven or Gradle to download the required dependencies. Run the following command in the terminal:
+            <pre><code>mvn install</code></pre>
+        </li>
+        <li><strong>Configure the API Endpoint:</strong> Ensure that the <code>URL</code> in the <code>SmartBot</code> class is correctly pointing to the API endpoint for the language model.</li>
+        <li><strong>Run the Application:</strong> Run the <code>SmartBot</code> class as a Java application. The UI should launch, allowing you to interact with the bot.</li>
+        <li><strong>File Storage:</strong> The chat history is saved in the "chat" directory within the project's root directory.</li>
+    </ol>
+
+    <h3>3. Troubleshooting</h3>
+    <ul>
+        <li>If the application fails to start, check that all dependencies are correctly installed.</li>
+        <li>If the chat history is not saving, ensure that the "chat" directory has the appropriate write permissions. </li>
+		<li>For the pdf book creation, check for the write permission for output directories </li>
+        <li>If file attachments are not processed, verify that the correct file types are being selected (JPG, PNG).</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>
+        With these steps, you should have SmartBot up and running. The application provides a robust foundation for building and extending chatbot capabilities, especially for integrating AI language models.
+    </p>
+
+</body>
+</html>

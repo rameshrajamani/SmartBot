@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\knowledgekin\projects\SmartBooksCreator\Launcher.jar</jar>
+  <outfile>C:\knowledgekin\projects\SmartBooksCreator\SmartBot.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>SmartBot</txtFileVersion>
+    <fileDescription>SmartBot version 1.0 published by RameshRajamani</fileDescription>
+    <copyright>This software belongs to Ramesh Rajamani. Get the permision from rameshrajamani@hotmail.com</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>SmartBot</txtProductVersion>
+    <productName>SmartBot</productName>
+    <companyName></companyName>
+    <internalName>SmartBot</internalName>
+    <originalFilename>SmartBot.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
