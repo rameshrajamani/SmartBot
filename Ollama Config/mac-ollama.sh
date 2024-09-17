@@ -2,7 +2,7 @@
 
 # Define variables
 OLLAMA_URL="https://www.ollama.com/download/Ollama-darwin.zip"
-TEXT_MODEL="phi3"
+TEXT_MODEL="phi3.5"
 IMAGE_MODEL="moondream"
 OLLAMA_DIR="$HOME/ollama"
 OLLAMA_EXE="$OLLAMA_DIR/ollama"
