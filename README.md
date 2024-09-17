@@ -22,14 +22,19 @@ Whether you're a small business or a large enterprise, SmartBot provides a robus
 In summary, SmartBot brings the power of AI directly to your desktop, eliminating security concerns, reducing costs, and offering unparalleled flexibility. With the ability to support the latest open-source AI models, it is the perfect solution for organizations seeking to leverage the full potential of AI while maintaining complete control over their data.
 
 
-**Installations**
+**Installation Guide for SmartBot**
+Installing SmartBot is a simple two-step process:
 
-Installation of SmartBot is a two-step process and it's very easy to install.
+**1. Install Ollama and Models:**
+> Navigate to the Ollama Config directory and install Ollama along with the desired models.
+> For installation:
+  **Windows users:** Run the windows-ollama.bat script.
+  **Linux users:** Run the linux-ollama.sh script.
+  **Mac users:** Run the mac-ollama.sh script.
 
-1. Install ollama and its model from Ollama Config directory.
+**2. Run SmartBot:**
 
-If you are using windows, use the windows-ollama.bat script. For Linux, use linux-ollama.sh and for mac, use mac-ollama.sh. 
+**Windows users:** Launch SmartBot by clicking on SmartBot.exe or running the run.bat script.
+**Linux users:** Use the run.sh script to start SmartBot.
 
-2. Run the SmartBot by clicking on the SmartBot.exe or run.bat if you are windows user and run.sh if you are using linux.
-
-   That's it, you should be able to converse with the models you wish by changing the model configuration in config.properties.
+That’s it! You can now converse with different AI models by updating the model configuration in the config.properties file.
