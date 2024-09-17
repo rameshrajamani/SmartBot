@@ -28,9 +28,9 @@ Installing SmartBot is a simple two-step process:
 **1. Install Ollama and Models:**
 > Navigate to the Ollama Config directory and install Ollama along with the desired models.
 > For installation:
-  **Windows users:** Run the windows-ollama.bat script.
-  **Linux users:** Run the linux-ollama.sh script.
-  **Mac users:** Run the mac-ollama.sh script.
+  **Windows users:** Run the **windows-ollama.bat** script.
+  **Linux users:** Run the **linux-ollama.sh** script.
+  **Mac users:** Run the **mac-ollama.sh** script.
 
 **2. Run SmartBot:**
 
