@@ -41,7 +41,7 @@ That’s it! You can now converse with different AI models by updating the model
 
 **System Configuration**
 
-This is tested in the CPU so you dont need to spend for GPU. And it works fine and the system configuration the above is developed and tested 
+This is tested in the CPU so you dont need to spend for GPU. And the SmartBot is developed and tested under the below configurations
 
 Processor : 12th Gen Intel(R) Core(TM) i5-1240P   1.70 GHz
 RAM - 16 GB
