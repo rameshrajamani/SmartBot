@@ -1,6 +1,6 @@
 # SmartBot
 
-**SmartBot** is a cutting-edge desktop application designed to harness the power of AI models without the need for cloud integration. With SmartBot, you have access to the full range of open-source models—including Large Language Models (LLMs), Small Language Models (SLMs), and Vision-Language Models (VLMs)—all operating directly from your local machine. Built entirely in Java, SmartBot is platform-independent, ensuring that it can be deployed across multiple environments without the hassle of compatibility issues.
+**SmartBot** is a cutting-edge desktop application designed to harness the power of AI models without the need for cloud integration. With SmartBot, you have access to the full range of open-source models—including Large Language Models (LLMs), Small Language Models (SLMs), and Vision-Language Models (VLMs) with **1B to 11B parameters** tested—all operating directly from your local machine. Built entirely in Java, SmartBot is platform-independent, ensuring that it can be deployed across multiple environments without the hassle of compatibility issues.
 
 ![image](https://github.com/user-attachments/assets/ec26a352-d55d-49a4-81c8-e1232ab2c01a)
 
