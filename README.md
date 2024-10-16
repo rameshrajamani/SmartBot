@@ -27,7 +27,7 @@ Whether you're a small business or a large enterprise, SmartBot provides a robus
 2) **Tool Integration**: SmartBot will interact with real-time updates, including weather forecasts, news, and more.
 3) **Search Functionality**: SmartBot will include search capabilities using function calls or tool integrations.
 4) **Simplified Installation**: An auto-installer will streamline the process, reducing the installation from two steps to just one.
-5) **Agentic Framework Support**: Additionally, SmartBot will be implemented with the Agentic framework. 
+5) **Multi Agents Support**: Additionally, SmartBot will be implemented with the multiple Agents. 
 
 In summary, SmartBot brings the power of AI directly to your desktop, eliminating security concerns, reducing costs, and offering unparalleled flexibility. With the ability to support the latest open-source AI models, it is the perfect solution for organizations seeking to leverage the full potential of AI while maintaining complete control over their data.
 
