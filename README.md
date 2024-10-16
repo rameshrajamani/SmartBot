@@ -23,10 +23,11 @@
 Whether you're a small business or a large enterprise, SmartBot provides a robust AI platform that grows with your needs. Its secure, cloud-free architecture ensures peace of mind while offering the latest advancements in AI. From automating tasks to providing valuable insights, SmartBot can be integrated into various workflows without risking data privacy or incurring excessive cloud costs.
 
 **Future Enchancement**
-1) Memory Capabilities - SmartBot can understand across the session.
-2) Tool Capabilities - SmartBot can interact with live updates that include weather forecasts, news, etc.,
-3) SmartBot will have search capabilities using function calling or Tool calling.
-4) SmartBot will have the auto-installer, reducing the 2-step to 1-step installation.
+1) **Memory Capabilities** - SmartBot can understand across the session.
+2) **Tool Capabilities** - SmartBot can interact with live updates that include weather forecasts, news, etc.,
+3) SmartBot will have search capabilities using **function calling or Tool calling**.
+4) SmartBot will have the **auto-installer**, reducing the 2-step to 1-step installation.
+5) Last but not least, this tool will also support the **Agentic framework**. 
 
 In summary, SmartBot brings the power of AI directly to your desktop, eliminating security concerns, reducing costs, and offering unparalleled flexibility. With the ability to support the latest open-source AI models, it is the perfect solution for organizations seeking to leverage the full potential of AI while maintaining complete control over their data.
 
