@@ -26,8 +26,8 @@ Whether you're a small business or a large enterprise, SmartBot provides a robus
 1) **Memory Capabilities**: SmartBot will be able to retain context and understanding across multiple sessions.
 2) **Tool Integration**: SmartBot will interact with real-time updates, including weather forecasts, news, and more.
 3) **Search Functionality**: SmartBot will include search capabilities using function calls or tool integrations.
-4) **Simplified Installation**: An auto-installer will streamline the process, reducing the installation from two steps to just one.
-5) **Multi Agents Support**: Additionally, SmartBot will be implemented with the multiple Agents. 
+4) **Simplified Installation**: An auto-installer streamlines the process, reducing it from two steps to one.
+5) **Multi-Agents Support**: Additionally, SmartBot will be implemented with multiple Agents. 
 
 In summary, SmartBot brings the power of AI directly to your desktop, eliminating security concerns, reducing costs, and offering unparalleled flexibility. With the ability to support the latest open-source AI models, it is the perfect solution for organizations seeking to leverage the full potential of AI while maintaining complete control over their data.
 
@@ -36,7 +36,7 @@ In summary, SmartBot brings the power of AI directly to your desktop, eliminatin
 Installing SmartBot is a simple two-step process:
 
 **1. Install Ollama and Models:**
-> Navigate to the Ollama Config directory and install Ollama along with the desired models.
+> Navigate to the Ollama Config directory and install Ollama and the desired models.
 > For installation:
   **Windows users:** Run the **windows-ollama.bat** script.
   **Linux users:** Run the **linux-ollama.sh** script.
@@ -47,12 +47,12 @@ Installing SmartBot is a simple two-step process:
 **Windows users:** Launch SmartBot by clicking on **SmartBot.exe** or running the **run.bat** script.
 **Linux users:** Use the **run.sh** script to start SmartBot.
 
-That’s it! You can now converse with different AI models by updating the model configuration in the **config.properties** file.
+That’s it! You can now converse with different AI models by updating the configuration in the **config.properties** file.
 
 **System Configuration**
 
-This is tested in the CPU so you dont need to spend for GPU. And the SmartBot is developed and tested under the below configurations
+This is tested in the CPU so you don't need to spend for GPU. The SmartBot is developed and tested under the below configurations
 
-Processor : 12th Gen Intel(R) Core(TM) i5-1240P   1.70 GHz
+**Processor** : 12th Gen Intel(R) Core(TM) i5-1240P   1.70 GHz
 RAM - 16 GB
 64 Bit and 32 Bit OS
