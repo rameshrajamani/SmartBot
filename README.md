@@ -1,13 +1,13 @@
 # SmartBot
 
-**SmartBot** is a cutting-edge desktop application designed to harness the power of AI models without the need for cloud integration. With SmartBot, you have access to the full range of open-source models—including Large Language Models (LLMs), Small Language Models (SLMs), and Vision-Language Models (VLMs) with **1B to 11B parameters** tested—all operating directly from your local machine. Built entirely in Java, SmartBot is platform-independent, ensuring that it can be deployed across multiple environments without the hassle of compatibility issues.
+**SmartBot** is a cutting-edge desktop application designed to harness the power of AI models without the need for cloud integration. With SmartBot, you have access to the full range of open-source models—including Large Language Models (LLMs), Small Language Models (SLMs), and Vision-Language Models (VLMs) with **1B to 11B parameters** tested—all operating directly from your local machine. Built entirely in Java, SmartBot is platform-independent, ensuring it can be deployed across multiple environments without the hassle of compatibility issues.
 
 ![image](https://github.com/user-attachments/assets/ec26a352-d55d-49a4-81c8-e1232ab2c01a)
 
 
 **Key Features**
 
-**Security by Design** SmartBot eliminates the need for external guardrails or security layers. Since the entire AI process runs locally, organizations no longer have to worry about security breaches or data leaks. Sensitive data never leaves your network, providing an airtight solution for industries dealing with confidential information.
+**Security by Design** SmartBot eliminates needing external guardrails or security layers. Since the entire AI process runs locally, organizations no longer worry about security breaches or data leaks. Sensitive data never leaves your network, providing an airtight solution for industries dealing with confidential information.
 
 **Cloud-Free Operation** By removing the need for cloud connectivity, SmartBot offers a significant cost advantage. Organizations can run sophisticated models without paying for cloud resources, storage, or data transfer. This approach ensures complete control over your data and AI processes, all while avoiding subscription fees.
 
@@ -27,7 +27,8 @@ Whether you're a small business or a large enterprise, SmartBot provides a robus
 2) **Tool Integration**: SmartBot will interact with real-time updates, including weather forecasts, news, and more.
 3) **Search Functionality**: SmartBot will include search capabilities using function calls or tool integrations.
 4) **Simplified Installation**: An auto-installer streamlines the process, reducing it from two steps to one.
-5) **Multi-Agents Support**: Additionally, SmartBot will be implemented with multiple Agents. 
+5) **Multi-Agents Support**: Additionally, SmartBot will be implemented with multiple Agents.
+6) **Agentic RAG**: SmartBot will leverage not only RAG but also agentic RAG.
 
 In summary, SmartBot brings the power of AI directly to your desktop, eliminating security concerns, reducing costs, and offering unparalleled flexibility. With the ability to support the latest open-source AI models, it is the perfect solution for organizations seeking to leverage the full potential of AI while maintaining complete control over their data.
 
